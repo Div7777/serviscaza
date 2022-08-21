@@ -105,7 +105,7 @@ app.post('/mail', async (req, res) => {
         from: 'campusquest30@gmail.com',
         to: mail,
         subject: 'Confirmation Email',
-        text: `We sending you a confirmation mail regarding your choice of service from service hub. Do you want to nagotiat`
+        text: `We sending you a confirmation mail regarding your choice of service from service hub. Do you want to nagotiat ?`
       };
 
       transporter.sendMail(mailOptions, function (error, info) {
